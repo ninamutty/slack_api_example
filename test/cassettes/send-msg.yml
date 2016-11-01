@@ -1,0 +1,251 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44795749333-98466451430-4c02b0e494a51cc451d61a905f3347ff
+    body:
+      encoding: UTF-8
+      string: text=This%20is%20a%20test%20case&channel=test-api-parens&username=CheezItBot&icon_url=https%3A%2F%2Favatars.slack-edge.com%2F2016-06-01%2F47243492547_e3bd80a93a62bd63b8e6_72.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '327'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:21:14 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - a4fcdada-9237-4820-a317-b1b017fc5049
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 85359b00dd31672f055ad3cc68c51eff.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - cR5jiPPhrR8OAgP9aNsYrWkCJeHeWPkVU3un_JrOZXH5Ppuz0IN5Ow==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478020874.000647","message":{"text":"This
+        is a test case","username":"CheezItBot","icons":{"image_48":"https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-10-27\/97403587554_48.png"},"bot_id":"B2WE7N466","type":"message","subtype":"bot_message","ts":"1478020874.000647"}}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:21:13 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44795749333-98466451430-4c02b0e494a51cc451d61a905f3347ff
+    body:
+      encoding: UTF-8
+      string: text=I%27m%20Not%20Chris&channel=test-api-parens&username=NotCheezItBot&icon_url=https%3A%2F%2Favatars.slack-edge.com%2F2016-06-01%2F47243492547_e3bd80a93a62bd63b8e6_72.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '324'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:24:21 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 85b26367-213f-43c7-a8da-18f96341ad54
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 baba25718271048500893eed324db5bb.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - ynD--XnRTIpKEP7FuucRjGDwJQHetMP1xBKzZzwzI8FuFM-f_P3UFQ==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478021061.000657","message":{"text":"I''m
+        Not Chris","username":"NotCheezItBot","icons":{"image_48":"https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-10-27\/97403587554_48.png"},"bot_id":"B2WE7N466","type":"message","subtype":"bot_message","ts":"1478021061.000657"}}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:24:21 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44795749333-98466451430-4c02b0e494a51cc451d61a905f3347ff
+    body:
+      encoding: UTF-8
+      string: text=I%27m%20Not%20Chris&channel=test-api-parens&username=CheezItBot&icon_url=https%3A%2F%2Favatars.slack-edge.com%2F2016-06-01%2F47243492547_e3bd80a93a62bd63b8e6_72.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '321'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:25:52 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - f2520b02-0cda-4ab6-ab9e-c3a900bf123e
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 7bdfe469102431e5bc0938ba6b094eb7.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - HrpyoO1Dka9iSEMs7WHhMfr89HG0v4H7r9phTPS6sSIT86nmAj3XHQ==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478021152.000664","message":{"text":"I''m
+        Not Chris","username":"CheezItBot","icons":{"image_48":"https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-10-27\/97403587554_48.png"},"bot_id":"B2WE7N466","type":"message","subtype":"bot_message","ts":"1478021152.000664"}}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:25:51 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44795749333-98466451430-4c02b0e494a51cc451d61a905f3347ff
+    body:
+      encoding: UTF-8
+      string: text=I%20hope%20this%20works&channel=test-api-parens&username=CheezItBot&icon_url=https%3A%2F%2Favatars.slack-edge.com%2F2016-06-01%2F47243492547_e3bd80a93a62bd63b8e6_72.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '325'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:33:16 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - ab7b6c11-785a-48b6-9724-a07318bd0d46
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 7bdfe469102431e5bc0938ba6b094eb7.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 6ztxJODMmup3MqtbwKcp5OL9OnAAt0_iY46Iqt-Sm1lB1tmOXEi5aw==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478021596.000679","message":{"text":"I
+        hope this works","username":"CheezItBot","icons":{"image_48":"https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-10-27\/97403587554_48.png"},"bot_id":"B2WE7N466","type":"message","subtype":"bot_message","ts":"1478021596.000679"}}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:33:16 GMT
+recorded_with: VCR 3.0.3

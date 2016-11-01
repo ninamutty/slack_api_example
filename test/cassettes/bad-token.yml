@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://slack.com/api/channels.list?exclude_archived=1&pretty=1&token=bad-token
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '62'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:17:23 GMT
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - b69656c6-761d-48c8-86f2-4b5b95002f2e
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 323815e0c8825597e430b3273b4de2d0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Z7pC0-xo4WPYSmtAatb4m3N0W9XMGkzc7zlmFMTkpZKrS7pMOOVzHg==
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+            "ok": false,
+            "error": "invalid_auth"
+        }
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:17:22 GMT
+recorded_with: VCR 3.0.3

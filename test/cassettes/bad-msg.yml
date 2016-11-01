@@ -1,0 +1,125 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44795749333-98466451430-4c02b0e494a51cc451d61a905f3347ff
+    body:
+      encoding: UTF-8
+      string: text=&channel=test-api-parens&username=CheezItBot&icon_url=https%3A%2F%2Favatars.slack-edge.com%2F2016-06-01%2F47243492547_e3bd80a93a62bd63b8e6_72.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '30'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:54:04 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - d3a03030-9cbc-409a-b4c0-a1c2e3fa9fbf
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 6261c1e191f58b7ab31911c73608e3c1.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - mtV2pBzuedi-ggUIOmx7qko-NM7s325JqRVxTREl7yPy4l4-Wfg92g==
+    body:
+      encoding: UTF-8
+      string: '{"ok":false,"error":"no_text"}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:54:04 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44795749333-98466451430-4c02b0e494a51cc451d61a905f3347ff
+    body:
+      encoding: UTF-8
+      string: text=&channel=test-api-parens&username=CheezItBot&icon_url=https%3A%2F%2Favatars.slack-edge.com%2F2016-06-01%2F47243492547_e3bd80a93a62bd63b8e6_72.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '30'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:54:29 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 34ddaac4-3c93-4c4d-b14e-3b7cdf1d61f6
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 8616cfe905870ff4c06a2b1da3b52a99.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 2XZH_xVv2BuPpxVRdfgxHDPl7b29iVUwU2Gajvm-ATId5S001T-msQ==
+    body:
+      encoding: UTF-8
+      string: '{"ok":false,"error":"no_text"}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:54:29 GMT
+recorded_with: VCR 3.0.3
